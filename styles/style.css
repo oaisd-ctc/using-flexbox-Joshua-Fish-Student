@@ -1,0 +1,74 @@
+.container{
+    /*lets it change size to match window*/
+    display: flex;
+    
+    background-color: red;
+    justify-content: center;
+
+    /*this would reverse the rows if there where multiple diferent objects*/
+    flex-direction: row-reverse;
+    
+    height: 400px;
+    width: 100%;
+
+    /*aligns stuff in the center*/
+    align-items: center;
+}
+.object{
+    background-color: lightgray;
+    height: 5px;
+    width: 5px;
+    margin: 20px;
+}
+.thing{
+    height: 200px;
+    width: 200px;
+    background-color: lightgray;
+}
+nav{
+    margin: 30px;
+    background-color: black;
+    height: 60px;
+
+    /*lets it change size to match window*/
+    display: flex;
+
+    /*aligns stuff in the center*/
+    align-items: center;
+
+    /*aligns stuff to have nice spacing*/
+    justify-content: space-around;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+    /*lets it change size to match window*/
+    display: flex;
+
+    /*aligns stuff in the center*/
+    align-items: center;
+    justify-content: center;
+
+    border: solid 3px red;
+    width: 30vw;
+    height: 60px;
+    text-align: center;
+}
+a:hover{
+    /*when user hovers*/
+    background-color: red;
+    border-color: black;
+}
+li:first-child{
+    /*first li only*/
+    background-color: orange;
+}
+li:nth-child(3){
+    /*3rd li only*/
+    background-color: orange;
+}
+li:nth-child(5){
+    /*5th li only*/
+    background-color: orange;
+}

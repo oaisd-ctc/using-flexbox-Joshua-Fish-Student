@@ -1,0 +1,27 @@
+display: flex;
+lets flex work
+w3schools
+
+flex-direction: row-reverse;
+makes it row backwards
+w3schools
+
+align-items: center;
+centers vertically
+w3schools
+
+justify-content: space-around;
+aligns with nice space around everything horizontally
+w3schools
+
+:hover
+when the user hovers
+source: fishyboi72.codehs.me
+
+:first-child
+picks only the first child
+w3schools
+
+:nth-child(#)
+picks the #th child
+w3schools
